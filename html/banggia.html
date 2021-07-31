@@ -1,0 +1,59 @@
+<div class="container-fluid">
+  <!--banggia-->
+  <div class="row">
+    <div class="col-sm-3">
+
+    </div>
+    <div class="col-sm-5" >
+      <div class="container" ng-controller="mid">
+        <h2 style="color:black; text-align: center;">{{banggia}}</h2>
+                    
+        <table style="color: blanchedalmond;" class="table" >
+          <tr ng-repeat="item in di">
+            <td>
+              {{di.text1}}
+            </td>
+            <td>
+              {{di.text2}}
+            </td>
+            <td>
+              {{di.text3}}
+            </td>
+          </tr>
+         
+        </table>
+      </div>
+    </div>
+    
+    <div class="col-sm-4">
+      
+    </div>
+    
+  </div>
+  
+  
+</div>
+
+<div class="row" ng-controller="sp">
+  <div class="col-sm-2"></div>
+  <table style="color: black; background-color: white;" >
+    <tr ng-repeat="item in disp" >
+      <td>
+        <p>{{item.text1}}</p>
+      </td>
+      
+      <td>
+        <p>{{item.text2}}</p>
+      </td>
+      <td>
+        <p>{{item.text3}}</p>
+      </td>
+    
+    </tr>
+    
+  </table>
+</div>
+
+<div style="background-color: white;" class="container-fluid">
+  <br><br><br><br><br><br><br><br><br>
+</div>

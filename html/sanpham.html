@@ -1,0 +1,51 @@
+<div>
+  <h2 style="color: black;">Audi Vietnam</h2>
+</div>
+<hr style="background-color: white">
+<!-- Trắng -->
+<div style="background-color: white;" class="container-fluid">
+  <br>
+</div>
+<div ng-controller="mid">
+  <h2 style="color: black;">{{sanpham}}</h2>
+</div>
+<!--hieuung--><div class="row" ng-controller="boc">
+
+<div class="gallery-single fix col-sm-4"  ng-repeat="item in abc" >      
+  <img src="{{item.hinhmoi1}}" class="img-fluid" alt="Image"  > 
+  <div class="why-text" >
+   
+    
+    <h5>{{item.text3}} <button type="button" class="btn" id="button"><a>{{item.text4}}</a></button></h5>
+  </div>
+  </div>
+  </div>
+<!-- thẻ hr -->
+<div style="background-color: white;" class="container-fluid">
+  <br>
+</div>
+
+<hr style="background-color: white;">
+<!-- Trắng -->
+<div style="background-color: white;" class="container-fluid">
+  <br>
+</div>
+<div class="row" ng-controller="boct">
+
+  <div class="gallery-single fix col-sm-3"  ng-repeat="item in adc" >      
+    <img src="{{item.hinhmoi1}}" class="img-fluid" alt="Image"  > 
+    <div class="why-text" >
+      <h4>{{item.hinhmoi2}}</h4>
+      <p>{{item.hinhmoi3}}</p>
+      <h5>{{item.text3}} <button type="button" class="btn" id="button"><a>{{item.text4}}</a></button></h5>
+    </div>
+    </div>
+    </div>
+
+
+<!-- thẻ hr -->
+
+<!-- Trắng -->
+<div style="background-color: white;" class="container-fluid">
+  <br><br><br><br><br><br><br>
+</div>
